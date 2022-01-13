@@ -1,0 +1,13 @@
+package exercicios;
+
+import javax.swing.JOptionPane;
+
+public class TrianguloArea {
+	public static void main(String[] args) {
+		
+		String num01 = JOptionPane.showInputDialog("Digite a altura do triangulo: ");
+		
+		
+	}
+
+}

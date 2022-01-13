@@ -1,0 +1,26 @@
+package exercicios;
+
+import javax.swing.JOptionPane;
+
+public class Imc {
+
+	public static void main(String[] args) {
+		String p = JOptionPane.showInputDialog("Digite o seu peso: ");
+		String a = JOptionPane.showInputDialog("Digite a sua altura: ");
+		
+		Double pesoConvert = Double.parseDouble(p);
+		Double alturaConvert = Double.parseDouble(a);
+		double resultado =  pesoConvert / (alturaConvert * alturaConvert);
+		
+		if()
+
+
+		
+	
+	
+	
+	
+	
+	
+	}
+}

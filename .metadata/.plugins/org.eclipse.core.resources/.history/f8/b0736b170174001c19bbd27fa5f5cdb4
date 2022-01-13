@@ -1,0 +1,17 @@
+package exercicios;
+
+import javax.swing.JOptionPane;
+
+public class Imc {
+
+	public static void main(String[] args) {
+		double peso = JOptionPane.showInputDialog("Digite o seu peso: ")
+		
+	
+	
+	
+	
+	
+	
+	}
+}

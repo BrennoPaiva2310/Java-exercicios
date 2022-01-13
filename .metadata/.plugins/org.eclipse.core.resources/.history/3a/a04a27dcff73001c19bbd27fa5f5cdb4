@@ -1,0 +1,21 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class Celcius {
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Qual a sua temperatura em Fahrenheit? ");
+		Double temperaturaCelcius = entrada.nextDouble();
+		
+		System.out.println("O resultado da sua conversão é: "+(temperaturaCelcius - 32) * 5/9 +"°C");
+//		(0 °C × 9/5) + 32 = 32 °F
+
+		
+		entrada.close();
+		
+		
+	};
+
+}

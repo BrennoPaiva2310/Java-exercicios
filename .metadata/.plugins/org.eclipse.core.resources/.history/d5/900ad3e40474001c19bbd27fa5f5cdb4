@@ -1,0 +1,11 @@
+package exercicios;
+
+import javax.swing.JOptionPane;
+
+public class Programa {
+	public static void main(String[] args) {
+		String num01 = JOptionPane.showInputDialog("Digite um número: ");
+		Double cubo = Math.pow(0, 0).parseDouble(num01)
+	}
+
+}

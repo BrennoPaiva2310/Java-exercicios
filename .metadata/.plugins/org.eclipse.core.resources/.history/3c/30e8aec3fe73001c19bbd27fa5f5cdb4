@@ -1,0 +1,17 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class Fahrenheit {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Qual a sua temperatura em Fahrenheit? ");
+		String temperaturaFahrenheit = entrada.nextLine();
+		
+		
+		
+		
+		
+	};
+
+}
