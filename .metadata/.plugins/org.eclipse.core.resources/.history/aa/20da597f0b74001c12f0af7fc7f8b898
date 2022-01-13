@@ -1,0 +1,21 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class Condicional {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite uma nota: ");
+		double nota = entrada.nextDouble();
+		
+		if(nota < 7) {
+			System.out.println("Reprovado");
+		}else {
+			System.out.println("Aprovado");
+		}
+	
+	
+	}
+
+}

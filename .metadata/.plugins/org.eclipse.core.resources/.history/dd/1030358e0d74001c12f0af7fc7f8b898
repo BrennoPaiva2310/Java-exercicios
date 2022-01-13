@@ -1,0 +1,55 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class Condicional {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite o dia da seman: ");
+		String diaSemana = entrada.nextLine();
+		
+		
+		if(diaSemana.equals("Domingo") == true) {
+			System.out.println("1");
+		}else if (diaSemana.equals("Segunda") == true) {
+			System.out.println("2");
+		}else if (diaSemana.equals("Terça") == true) {
+			System.out.println("3");
+		}else if (diaSemana.equals("Quarta") == true) {
+			System.out.println("4");
+		}else if (diaSemana.equals("Quinta") == true) {
+			System.out.println("2");
+		}else if (diaSemana.equals("Sexta") == true) {
+			System.out.println("2");
+		}else if (diaSemana.equals("Sabado) == true) {
+			System.out.println("2");
+		}
+	
+				
+				
+				
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
